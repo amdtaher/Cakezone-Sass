@@ -1,0 +1,60 @@
+.footer{
+    .first-footer{
+        padding: 50px;
+        margin-top: -15px;
+        position: relative;
+        &::before{
+            content: '';
+            width: 95%;
+            height: 95%;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            right: 10px;
+            bottom: 10px;
+            border: 1px solid white;
+            z-index: 1;
+        }
+    }
+    .single-footer{
+        li{
+            a{
+                &:hover{
+                    color: $primary_color;
+                }
+            }
+        }
+        .socials{
+            li{
+                width: 66px;
+                height: 66px;
+                line-height: 66px;
+                a{
+                    &:hover{
+                        color: $black;
+                    }
+                    i{
+                        border: 1px solid $white;
+                    }
+                }
+            }
+        }
+        input{
+            border: 1px solid transparent;
+            &[type=submit]{
+                position: absolute;
+                top: 0;
+                right: 0;
+                transition: .3s;
+                &:hover{
+                    color: $primary_color;
+                    border: 1px solid $primary_color;
+                    background-color: $white;
+                }
+            }
+        }
+    }
+    a,p{
+        color: $white;
+    }
+}

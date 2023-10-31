@@ -1,0 +1,53 @@
+// Flex
+$flexs: flex, inline-flex;
+@each $flex in $flexs {
+    .d-#{$flex} {
+        display: $flex;
+    }
+}
+
+// Directions
+$directions: row, row-reverse, column, column-reverse;
+@each $direction in $directions {
+    .d-#{$direction} {
+        flex-direction: $direction;
+    }
+}
+
+// Justify Content
+$justifys: flex-start, center, flex-end, space-between, space-evenly, space-around;
+@each $justify in $justifys {
+    .justify-#{$justify} {
+        justify-content: $justify;
+    }
+}
+
+// Align Items
+$aligns: flex-start, center, flex-end, space-between, space-evenly, space-around;
+@each $align in $aligns {
+    .a-items-#{$align} {
+        align-items: $align;
+    }
+}
+// Align Contents
+$aligns: flex-start, center, flex-end, space-between, space-evenly, space-around;
+@each $align in $aligns {
+    .a-content-#{$align} {
+        align-content: $align;
+    }
+}
+
+// Align Self
+$aligns: flex-start, center, flex-end, space-between, space-evenly, space-around;
+@each $align in $aligns {
+    .a-self-#{$align} {
+        align-self: $align;
+    }
+}
+
+// Flexs
+@for $i from 1 through 12{
+    .flex-#{$i}{
+        flex: $i;
+    }
+}

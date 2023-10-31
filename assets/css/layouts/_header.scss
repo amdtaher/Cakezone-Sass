@@ -1,0 +1,39 @@
+.header{
+    .header-center{
+        input{
+            border: .5 solid #333;
+        }
+        a{
+            padding: 10px;
+            margin-left: -5px;
+            &:hover{
+                color: $primary_color;
+            }
+        }
+    }
+    li{
+        a{
+            border-radius: 5px;
+            &:hover{
+                color: $primary_color;
+            }
+        }
+    }
+    &.fixed{
+        position: fixed;
+        z-index: 99999;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: $black;
+        a{
+            color: $white;
+            font-weight: 600;
+            margin-left: 15px;
+            text-transform: capitalize;
+            &:hover{
+                color: $primary_color;
+            }
+        }
+    }
+}

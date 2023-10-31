@@ -1,0 +1,27 @@
+Header from Eflyer -
+Banner from CakeZone -Done
+What we do from Evonyee -
+Ad Banner1 from Evonyee -
+About1 from Evonyee -
+Ad Banner2 from Built Better
+Products from Deni
+Discount from CakeZone
+About2 from CakeZone 
+Achivements from CakeZone
+Blogs from Deni
+Latest News from Evonyee
+Contact from Deni
+Footer from Deni
+
+
+problems-
+-about or image oto lamba oilo igure tik kila kortm
+-font family sass dia banaisi
+-flex direction kam korena flex na dile
+-row every 12ta column bade dewa lagbo ni?
+-logor border dewar lagi extra div nisi
+-paragraph re box or bitre sundor kori hazaibar lagi kita use kortam padding na width na ch
+-a tag middle o kila ana jay
+-single footer ba kuno first child last child kam oy na kne
+-footer logo majkano ay na
+-menu card r blog card or img fise takto content or kila kora jay

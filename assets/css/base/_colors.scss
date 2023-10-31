@@ -1,0 +1,42 @@
+// Theme Colors
+$primary_color: #e88f2a;
+$secondary_color: #4c4c4b;
+$link_color: #333;
+$p_dark: #656565;
+$bg_grey: #f7f8f8;
+$bg_dark: #666;
+$bg_light_grey: #f4f4f4;
+
+// Common Colors
+$white: #fff;
+$black: #262528;
+$dark: #333;
+$grey: #ddd;
+$orange: #e88f2a;
+
+// Colors in Classes
+.bg-grey{
+    background-color: $bg_grey;
+}
+.bg-black{
+    background-color: $black;
+}
+.bg-dark{
+    background-color: $black;
+}
+.bg-primary{
+    color: $white;
+    background-color: $primary_color;
+}
+.text-white{
+    color: $white;
+}
+.text-black{
+    color: $black;
+}
+.text-primary{
+    color: $primary_color;
+}
+.text-grey{
+    color: $grey;
+}

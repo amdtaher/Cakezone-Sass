@@ -1,0 +1,16 @@
+    .single-menu{
+        img{
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+        }
+        border: 1px solid $grey;
+        border-radius: 6px;
+        box-shadow: 4px 14px 20px $grey;
+        overflow: hidden;
+        
+        &:hover img{
+            transform: scale(1.05);
+        }
+    }
+
+

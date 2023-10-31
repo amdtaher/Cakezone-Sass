@@ -1,0 +1,77 @@
+// Imported Fonts from Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Pacifico&family=Poppins:wght@400;500;600;700&family=Roboto&display=swap');
+// Universal Sizes
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
+
+// Heading Sizes
+$sizes: (h1, 40px, 48px, 700), 
+        (h2, 32px, 40px, 600), 
+        (h3, 28px, 36px, 600),
+        (h4, 24px, 32px, 500),
+        (h5, 20px, 28px, 500),
+        (h6, 16px, 24px, 400);
+@each $name, $size, $height, $weight in $sizes {
+    #{$name} {
+        font-size: $size;
+        line-height: $height;
+        font-weight: $weight;
+    }
+}
+
+// Font Sizes
+@for $i from 15 through 100{
+    .fz-#{$i}{
+        font-size: $i + px;
+    }
+}
+
+// Font Weights
+$weights: 100, 200, 300, 400, 500, 600, 700, 800, 900;
+@each $weight in $weights {
+    .fw-#{$weight} {
+        font-weight: $weight;
+    }
+}
+
+// Line Heights
+@for $i from 15 through 100{
+    .lh-#{$i}{
+        line-height: $i + px;
+    }
+}
+
+// Gaps
+@for $i from 1 through 10{
+    .gap-#{$i * 10}{
+        gap: $i * 10px;
+    }
+}
+
+// Text Alings
+$aligns: left, center, right, justify;
+@each $align in $aligns {
+    .text-#{$align} {
+        text-align: $align;
+    }
+}
+
+// Text Transforms
+$transforms: lowercase, uppercase, capitalize;
+@each $transform in $transforms {
+    .#{$transform} {
+        text-transform: $transform;
+    }
+}
+
+// Font Family
+$fonts: 'Oswald', 'Pacifico', 'Roboto', 'poppins';
+@each $font in $fonts {
+    .ff-#{$font} {
+        font-family: $font, sans-serif;
+    }
+}
