@@ -1,5 +1,5 @@
 // Margin & Paddings
-@for $i from 1 through 30 {
+@for $i from 1 through 40 {
     .m-#{$i * 5} {
         margin: $i * 5px;
     }

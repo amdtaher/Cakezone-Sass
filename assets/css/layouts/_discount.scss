@@ -1,7 +1,7 @@
 .discounts{
-    .discount{
+    &__discount{
         margin-top: -160px;
-            .single-discount{
+            &__single-discount{
                 background-color: $primary_color;
                 padding: 30px;
                 position: relative;
@@ -23,7 +23,7 @@
                 }
             }
     }
-    .dc-btn{
+    .discount-btn{
         top: 100%;
         left: 50%;
         transform: translatex(-50%);
